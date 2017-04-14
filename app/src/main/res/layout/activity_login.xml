@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".UserActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/sd1"
+            android:text="    "
+            android:textSize="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+android:layout_gravity="center"
+            android:layout_below="@id/sd1"
+            android:id="@+id/IV"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text=" "
+            android:id="@+id/tvusername" />
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="E-Ticket"
+            android:id="@+id/textView2122" />
+
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text=" "
+            android:id="@+id/tvbalance" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/etUsername"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:id="@+id/tvRegisterLink"
+        android:layout_below="@+id/bSignIn"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:textSize="50sp"
+        android:text="|"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/bSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:text="Sign In" />
+
+
+
+</LinearLayout>
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/CL"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Conductor Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

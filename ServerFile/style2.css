@@ -1,0 +1,47 @@
+body{
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 0px;
+  padding: 0px;
+  background-image: url('http://il2.picdn.net/shutterstock/videos/7693210/thumb/7.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header{
+  text-align: center;
+  font-family: 'Oswald';
+  background-color: rgba(188, 143, 143, 0.9);
+  top: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.main{
+  background-color: rgba(220, 220, 220, 0.5);
+  font-family: 'Oswald';
+  border: 0px solid rgb(0, 0, 0);
+  padding-bottom: 15px;
+  padding-top: 0px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 250px;
+  width: 40%;
+}
+
+#Send{
+  font-family: 'Oswald';
+  color: black;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(0, 0, 0);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  }
+
+  #Send:hover{
+    background-color: #db7093;
+    animation: ease;
+  }
