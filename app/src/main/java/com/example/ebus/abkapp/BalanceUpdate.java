@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BalanceUpdate extends StringRequest {
-    private static final String REGISTER_REQUEST_URL = "http://vry.vipiny.com/balance.php";
+    private static final String REGISTER_REQUEST_URL = "http://vikasrajyadav.com/vry/balance.php";
     private Map<String, String> params;
 
     public BalanceUpdate(String username, int balance, Response.Listener<String> listener) {

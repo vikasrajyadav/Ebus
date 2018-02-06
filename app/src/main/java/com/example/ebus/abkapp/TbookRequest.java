@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TbookRequest extends StringRequest {
-    private static final String REGISTER_REQUEST_URL = "http://vry.vipiny.com/ticketbooked.php";
+    private static final String REGISTER_REQUEST_URL = "http://vikasrajyadav.com/vry/ticketbooked.php";
     private Map<String, String> params;
     Boolean value = false;
 

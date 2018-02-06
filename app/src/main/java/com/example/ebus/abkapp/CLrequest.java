@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CLrequest extends StringRequest {
-    private static final String LOGIN_REQUEST_URL = "http://vry.vipiny.com/123.php";
+    private static final String LOGIN_REQUEST_URL = "http://vikasrajyadav.com/vry/123.php";
     private Map<String, String> params;
 
     public CLrequest(String username, String password, Response.Listener<String> listener) {

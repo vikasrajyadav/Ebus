@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Updatecheck extends StringRequest {
-    private static final String LOGIN_REQUEST_URL = "http://vry.vipiny.com/updatecheck.php";
+    private static final String LOGIN_REQUEST_URL = "http://vikasrajyadav.com/vry/updatecheck.php";
     private Map<String, String> params;
 
     public Updatecheck(int ticketid, Boolean b12, Response.Listener<String> listener) {
